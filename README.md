@@ -1,10 +1,9 @@
-#w5500_modbu_tcp
+# w5500_modbu_tcp 1
  the project was prepared for a controller with small capabilities.
  for debugging i used f4-directory.
  this is a template for porting
-
-
-directory structure
+____
+# directory structure 2
 ├───CMSIS
 │   ├───Core
 │   │   └───Include
@@ -26,7 +25,7 @@ directory structure
     ├───Inc
     │   └───Legacy
     └───Src
-	
+____	
 implementation	
 
 server.c/.h
@@ -51,3 +50,4 @@ it was did because the project had conflict port.h(freeRTOS) and port.h(freeModb
 /* holding regs*/
 #define  REG_HOLDING_START 1
 #define  REG_HOLDING_NREGS 10 
+____
