@@ -3,32 +3,8 @@
  for debugging i used f4-directory.
  this is a template for porting
 ____
-# directory structure 2
-<div align="center">
-├───CMSIS
-│   ├───Core
-│   │   └───Include
-│   ├───Device
-│   │   └───ST
-│   │       └───STM32F4xx
-│   │           ├───Include
-│   │           └───Source
-│   │               
-│   │                  
-│   │                  
-│   │                   
-│   │                       
-│   └───Include
-├───ioLibrary_Driver
-│   └───Ethernet
-│       └───W5500
-└───STM32F4xx_HAL_Driver
-    ├───Inc
-    │   └───Legacy
-    └───Src
-</div>
-____	
-# implementation 3	
+
+# implementation 2	
 
 server.c/.h
 all functions for work modbu_tcp in uint8_t 
