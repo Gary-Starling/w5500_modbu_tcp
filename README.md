@@ -4,7 +4,27 @@
  this is a template for porting
 ____
 # directory structure 2
-![alt text](/directory.png)
+├───CMSIS
+│   ├───Core
+│   │   └───Include
+│   ├───Device
+│   │   └───ST
+│   │       └───STM32F4xx
+│   │           ├───Include
+│   │           └───Source
+│   │               
+│   │                  
+│   │                  
+│   │                   
+│   │                       
+│   └───Include
+├───ioLibrary_Driver
+│   └───Ethernet
+│       └───W5500
+└───STM32F4xx_HAL_Driver
+    ├───Inc
+    │   └───Legacy
+    └───Src
 ____	
 # implementation 3	
 
