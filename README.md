@@ -1,10 +1,10 @@
-# w5500_modbu_tcp
+#w5500_modbu_tcp
  the project was prepared for a controller with small capabilities.
  for debugging i used f4-directory.
  this is a template for porting
 
 
-#directory structure
+directory structure
 ├───CMSIS
 │   ├───Core
 │   │   └───Include
@@ -27,10 +27,11 @@
     │   └───Legacy
     └───Src
 	
-#implementation	
+implementation	
 
 server.c/.h
-all functions for work modbu_tcp in uint8_t tcp_ip_ser_run(uint8_t sock_number)
+all functions for work modbu_tcp in uint8_t 
+tcp_ip_ser_run(uint8_t sock_number)
 //==================================================//
 1)mbconfig.h //only tcp
 #define MB_ASCII_ENABLED                        (  0 )
