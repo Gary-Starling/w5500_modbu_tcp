@@ -1,10 +1,10 @@
-# w5500_modbu_tcp 1
+# w5500_modbu_tcp 
  the project was prepared for a controller with small capabilities.
  for debugging i used f4-directory.
  this is a template for porting
 ____
 
-# implementation 2	
+# implementation 	
 
 server.c/.h
 all functions for work modbu_tcp in uint8_t 
