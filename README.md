@@ -4,6 +4,7 @@
  this is a template for porting
 ____
 # directory structure 2
+<div align="center">
 ├───CMSIS
 │   ├───Core
 │   │   └───Include
@@ -25,6 +26,7 @@ ____
     ├───Inc
     │   └───Legacy
     └───Src
+</div>
 ____	
 # implementation 3	
 
