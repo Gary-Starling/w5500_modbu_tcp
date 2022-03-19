@@ -1,4 +1,4 @@
-# w5500_modbu_tcp 
+# w5500_modbus_tcp 
  the project was prepared for a controller with small capabilities.  
  for debugging i used f4-directory.  
  this is a template for porting  
